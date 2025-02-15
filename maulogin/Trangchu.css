@@ -1,0 +1,113 @@
+/* Đặt kiểu chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header với logo và tiêu đề */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #0000ff;
+}
+
+.logo {
+    height: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #ff0000;
+    margin: 0;
+}
+
+.search-box {
+    margin-right: 20px;
+}
+
+.search-box input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Phần thông tin người quản lý */
+.manager-info {
+    margin: 20px;
+    padding: 15px;
+    background-color: #e6f2ff;
+    border: 2px solid #0000ff;
+    border-radius: 8px;
+}
+
+.manager-info h2 {
+    margin-bottom: 10px;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.info-details p {
+    margin: 5px 0;
+}
+
+/* Sinh viên đã đăng ký và chờ duyệt */
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.student-info div {
+    padding: 15px;
+    background-color: #e6f2ff;
+    border: 2px solid #0000ff;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.student-info h3 {
+    margin-bottom: 10px;
+}
+
+.student-info button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Các nút chức năng */
+.function-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.function-buttons button {
+    padding: 20px;
+    width: 150px;
+    background-color: #ffffff;
+    border: 2px solid #0000ff;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.function-buttons button:hover {
+    background-color: #cce7ff;
+}
