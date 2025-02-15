@@ -3,39 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Quenmatkhau.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../maulogin/Quenmatkhau.css">
     <title>Quên mật khẩu</title>
 </head>
 
 <body>
-    <div class="Doimatkhau">
-        <div class="Logo">
-            <img src="./image/logo.png" alt="Logo">
+    <div class="container">
+        <div class="logo">
+            <img src="../test/images/logo.png" alt="Logo">
         </div>
         <h2>Quên mật khẩu</h2>
         <form>
-            <div class="Masosinhvien">
+            <div class="form-group">
                 <input type="text" placeholder="Mã số sinh viên">
             </div>
-            <div class="EmailandXacnhan">
-                <div class="BoxEmail">
-                    <input class="BoxEmail" type="text" placeholder="Email">
-                </div>
-                <div class="BoxGuima">
-                    <a class="btnGuima"> Gửi mã</a>
-                </div>
+            <div class="form-group row">
+                <input class="input-half" type="text" placeholder="Email">
+                <a id="send-code" href="#" class="btn">Gửi mã</a>
             </div>
-            <div class="BoxMaXacnhan">
+            <div class="form-group">
                 <input type="text" placeholder="Mã xác nhận">
             </div>
-            <div class="boxsubmit">
-                <a href="#" class="btnSubmit">Xác nhận</a>
-            </div>
-            <div class="Login">
-                <a href="login.html" class="btnLogin">Đăng Nhập</a>
-            </div>
+            <a href="#" class="btn full">Xác nhận</a>
+            <a href="login.html" class="link">Đăng Nhập</a>
         </form>
+
     </div>
 </body>
 
